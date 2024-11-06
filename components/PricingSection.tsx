@@ -127,7 +127,7 @@ const PricingSection = ({ courseFees = "2999" }) => {
                         className={"bg-foreground p-1 rounded-full"}
                         color={"#F15E04"}
                       />
-                      ₹ 2549 upon meeting above criteria
+                      ₹2549 refund upon meeting above criteria
                     </li>
                     <li className={"flex flex-row gap-x-2"}>
                       <Check
