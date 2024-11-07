@@ -39,6 +39,7 @@ export const getRelatedCourseData = async () => {
     )
     .then((res) => res);
 };
+export const getRelatedTestSeries = async () => {};
 
 export const getSlider = async () => {
   return await databases

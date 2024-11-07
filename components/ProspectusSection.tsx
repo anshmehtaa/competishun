@@ -13,6 +13,9 @@ const ProspectusSection = () => {
   const [selectedCategory, setSelectedCategory] = useState(0);
   const [relatedCourse, setRelatedCourses] =
     useState<Models.DocumentList<Models.Document>>();
+  const [relatedTestSeries, setRelatedTestSeries] =
+    useState<Models.DocumentList<Models.Document>>();
+
   const fetchData = async () => {
     await getRelatedCourseData().then((res) => setRelatedCourses(res));
   };
