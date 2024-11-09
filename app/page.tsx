@@ -1,9 +1,8 @@
 "use client";
 import NavBar from "@/components/NavBar";
 import Image from "next/image";
-import { blurs, constData, icons, images, scribles, sounds } from "@/constants";
+import { blurs, constData, icons, images } from "@/constants";
 import React, { useEffect, useRef, useState } from "react";
-import useSound from "use-sound";
 import { motion, useAnimate } from "framer-motion";
 import { HeadphonesIcon } from "lucide-react";
 import { primary } from "@/constants/colors";
@@ -18,13 +17,7 @@ import MentorSection from "@/components/MentorSection";
 import ProspectusSection from "@/components/ProspectusSection";
 import PricingSection from "@/components/PricingSection";
 import FooterBanner from "@/components/FooterBanner";
-import {
-  getData,
-  getFeaturesData,
-  getRelatedCourseData,
-  getStatsData,
-  getTestimonialData,
-} from "@/lib/fetchData";
+import { getData } from "@/lib/fetchData";
 import { Models } from "appwrite";
 import LeadFormWidget from "@/components/LeadFormWidget";
 import ResultShowcase from "@/components/ResultShowcase";
@@ -39,7 +32,6 @@ export default function Home() {
   const [data, setData] = useState<Models.DocumentList<Models.Document>>();
   const [scope, popAnimate] = useAnimate();
   const [starsScope, twinkleAnimation] = useAnimate();
-  const [playMagicSound] = useSound(sounds.magicSound, { volume: 0.5 });
   const [screen, setScreen] = useState({ width: 0, height: 0 });
   const heroSectionModelDimension = 320;
   // variable and state declaration ends here
@@ -116,11 +108,7 @@ export default function Home() {
   };
   return (
     <div className="w-full max-w-screen flex relative flex-col items-center">
-      <div
-        className={"z-40 w-screen overflow-hidden "}
-        id="chat-widget"
-        data-key="670f87c42f6b943716677af3"
-      ></div>
+      <div id="chat-widget" data-key="670f87c42f6b943716677af3"></div>
       <LeadFormWidget />
       <div className={"w-11/12 flex flex-col"}>
         <section

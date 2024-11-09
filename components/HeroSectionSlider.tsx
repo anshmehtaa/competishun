@@ -55,7 +55,7 @@ const HeroSectionSlider = ({ ...props }) => {
         ).map((item: any, index: any) => (
           <CarouselItem
             key={index}
-            className={`text-nowrap max-sm:first:pl-5 sm:basis-1/3 flex gap-1 flex-row items-center text-2xl font-extrabold italic`}
+            className={`text-nowrap max-sm:first:pl-10 m-2 sm:basis-1/3 flex gap-1 flex-row items-center text-2xl font-extrabold italic`}
           >
             <Sparkle
               style={{

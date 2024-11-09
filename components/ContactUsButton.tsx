@@ -39,7 +39,7 @@ const ContactUsButton = ({ variant = "primary", openDialog = false }) => {
       setTimeout(() => {
         setIsFormOpen(true);
         intervalRef.current = true;
-      }, 10000);
+      }, 3000);
     }
   }, []);
   const handleFormSubmit = async (event: any) => {
@@ -228,6 +228,7 @@ const ContactUsButton = ({ variant = "primary", openDialog = false }) => {
           </div>
         </form>
         <button
+          id={"dialogClose"}
           onClick={() => {
             setIsFormOpen(false);
             intervalRef.current = false;
