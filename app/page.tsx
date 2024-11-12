@@ -111,7 +111,6 @@ export default function Home() {
     <div className="w-full max-w-screen flex relative flex-col items-center">
       <div id="chat-widget" data-key="670f87c42f6b943716677af3"></div>
       <LeadFormWidget />
-      <FormPopup openDialog={true} />
       <div className={"w-11/12 flex flex-col"}>
         <section
           className={"hero-section flex flex-col w-full h-[120vh]  relative"}
