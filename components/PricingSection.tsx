@@ -5,7 +5,7 @@ import Image from "next/image";
 import { icons } from "@/constants";
 import { motion } from "framer-motion";
 
-const PricingSection = ({ courseFees = "2999" }) => {
+const PricingSection = ({ courseFees = "999/-" }) => {
   return (
     <section
       className={
@@ -44,11 +44,11 @@ const PricingSection = ({ courseFees = "2999" }) => {
                 }
               >
                 <h1 className={" text-3xl sm:text-6xl lg:text-7xl font-bold"}>
-                  Ultimate Revision Course for JEE Main - 2025
+                Crack Every Question in a Flash – The PYQ Express is Here!
                 </h1>
                 <p>
-                  {`Revise Smarter, Score Higher with Experts mentors in
-                    Competishun. Let's Crack JEE 2025`}
+                  {`Concepts Simplified. Time Maximized. Results Guaranteed.
+`}
                 </p>
                 <a href="/enrollment">
                   <motion.button
@@ -113,21 +113,21 @@ const PricingSection = ({ courseFees = "2999" }) => {
                         className={"bg-foreground p-1 rounded-full"}
                         color={"#F15E04"}
                       />{" "}
-                      Achieve 97+ percentile in JEE Mains 2025
+                      Concise Conceptual Solutions
                     </li>
                     <li className={"flex flex-row gap-x-2"}>
                       <Check
                         className={"bg-foreground p-1 rounded-full"}
                         color={"#F15E04"}
                       />
-                      Secure a rank under 25k in JEE Advanced
+                     Structured Topic and Chapter Segmentation
                     </li>
                     <li className={"flex flex-row gap-x-2"}>
                       <Check
                         className={"bg-foreground p-1 rounded-full"}
                         color={"#F15E04"}
                       />
-                      ₹2549 refund upon meeting above criteria
+                     Comprehensive Text Solution
                     </li>
                     <li className={"flex flex-row gap-x-2"}>
                       <Check
@@ -135,6 +135,13 @@ const PricingSection = ({ courseFees = "2999" }) => {
                         color={"#F15E04"}
                       />
                       Refund applies only to student of this course
+                    </li>
+                    <li className={"flex flex-row gap-x-2"}>
+                      <Check
+                        className={"bg-foreground p-1 rounded-full"}
+                        color={"#F15E04"}
+                      />
+                      Solutions crafted by renowned educators MT Sir, ALK Sir, NS Sir, and ABJ Sir,
                     </li>
                   </ul>
                 </div>

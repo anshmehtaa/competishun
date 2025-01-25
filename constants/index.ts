@@ -110,30 +110,34 @@ export const heroSectionHastags = [
 
 export const Faqs = [
   {
-    question: "Who must use Champ course for JEE MAIN preparation?",
+    question: "What are IIT JEE Main Express Video Solutions?",
     answer:
-      "Champ is perfect for students who have completed their syllabus and now want to revise and strengthen their concepts to boost their rank further.",
+      "IIT JEE Main Express Video Solutions is a series that provides fast and effective solutions to previous years' IIT JEE Main questions. " ,
   },
   {
     question:
-      "Will I get personalized feedback on my performance in the Champ course?",
+      "Who is this series for?",
     answer:
-      "Yes, students receive personalized performance analysis, which helps in understanding and improving areas that need more focus.",
+      "Students preparing for IIT JEE Main who want a quick and efficient revision. Learners aiming to understand concepts behind previous years’ questions. Aspirants looking to improve their problem-solving speed and accuracy.",
   },
   {
-    question: "Will we have Guidance Session for JEE MAIN Preparation? ",
+    question: "What topics are covered in these videos? ",
     answer:
-      "Yes, your batch will have regular guidance Session once in a week where you ask your doubts related to JEE MAIN preparation directly with MT Sir, ABJ Sir, ALK Sir or NS Sir.",
+      "The series covers the entire IIT JEE Main syllabus, including: Physics: Mechanics, Thermodynamics, Optics, Modern Physics, etc. Chemistry: Physical, Organic, and Inorganic Chemistry topics. Mathematics: Algebra, Calculus, Coordinate Geometry, Trigonometry, etc. The questions are organized chapter-wise, Topic wise and year-wise for easy access.",
   },
   {
     question:
-      "Does the Champ course cover all the important topics comprehensively?",
+      "How long are the videos?",
     answer:
-      "Absolutely! The Champ course is designed to revisit all important topics and high-yield areas, ensuring comprehensive coverage for maximum readiness.",
+      "Each video is short and to the point, typically solving one question in under 1 minute.",
   },
   {
-    question: "How Do you contact Support Staff of Competishun?",
-    answer: "Contact Support Staff at 8888-0000-21, 7410-900-901",
+    question: "How are the solutions created?",
+    answer: "The solutions are prepared by IIT experts and experienced faculty. Every video includes: A clear explanation of the concept behind the question. Logical and time-efficient solving methods. Alternate approaches for better understanding. ",
+  },
+  {
+    question: "How do these videos help in IIT JEE Main preparation?",
+    answer: "They explain concepts and tricks used in solving previous years’ questions. Provide insights into question patterns and important topics. Improve time management and problem-solving accuracy.",
   },
 ];
 
@@ -423,3 +427,4 @@ export const constData = {
   ],
   videoLink: [{ title: "" }],
 };
+
